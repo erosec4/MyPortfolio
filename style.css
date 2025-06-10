@@ -1,1 +1,69 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@font-face {
+    font-family: 'Lavonia';
+    src: url('/assets/Lavonia Font/EDLavonia-Regular.otf') format('woff2');
+}
+
+
+* {
+    /* Entire page */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Source Serif 4", serif;
+}
+
+a, 
+.btn {
+    /* On link/button clicks */
+    transition: all 300ms ease;
+}
+
+
+/* Desktop Navigation */
+
+.logo {
+    /* Add downloaded font */
+    font-family: 'Lavonia';
+    color: white;
+    font-size: 3.5rem;
+}
+
+.desktop-nav-container {
+    /* Add gradient background */
+    background: linear-gradient(to right, #8C52FF, #00BF63);
+}
+
+nav, 
+.nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-decoration-color: #8C52FF;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
 
