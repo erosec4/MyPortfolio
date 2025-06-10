@@ -62,7 +62,7 @@ a {
 }
 
 a:hover {
-    color: gray;
+    color: yellow;
     text-decoration: underline;
     text-underline-offset: 1rem;
 }
