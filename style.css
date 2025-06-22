@@ -37,7 +37,7 @@ a,
     cursor: default;
 }
 
-.desktop-nav-container {
+.nav-container {
     /* Add gradient background */
     background: linear-gradient(to right, #8C52FF, #00BF63);
 }
@@ -167,3 +167,41 @@ a:hover {
 .mobile-icon span:last-child {
     transform: none;
 }
+
+/* Sections */
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+/* About Section */
+#about {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section__bio {
+    align-self: center;
+    text-align: left;
+    color: white;
+}
+
+/* Projects Section */
+
+/* Contact Section */
